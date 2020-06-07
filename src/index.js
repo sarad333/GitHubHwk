@@ -34,14 +34,6 @@ let now = new Date();
 date.innerHTML = formatDate(now);
 
 //when using search engine - display the city name on page after submit
-
-//function searchCity(event) {
-//event.preventDefault();
-//let cityInput = document.querySelector("#searchInput");
-//let cityName = document.querySelector("#currentCityName");
-//cityName.innerHTML = `${cityInput.value}`;
-//}
-
 //searched city weather conditions should be displayed
 
 function showTemp(response) {
